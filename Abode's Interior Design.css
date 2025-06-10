@@ -1,3 +1,49 @@
 body {
-    background-image: ;
-}
+    color: rgb(255, 242, 175);
+  }
+  
+  .title {
+    text-align: center;
+    font-family: 'Leckerli One';
+    font-size: 120px;
+    position: relative;
+    bottom: 15px;
+  }
+  
+  .title_description {
+    text-align: center;
+    font-family: 'Leckerli One';
+    font-size: 45px;
+    position: relative;
+    bottom: 85px;
+  }
+  
+  p {
+    margin-left: 110px;
+    position: relative;
+    bottom: 140px;
+    font-size: 20px;
+    font-family: 'Lexend';
+    margin-right: 110px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    text-align: center;
+    text-decoration: strong;
+    font-size: 60px;
+    position: relative;
+    bottom: 175px;
+  }
+  
+  .Concluding_line {
+    text-align: center;
+  }
+  
+  a {
+    color: rgb(255, 242, 175);
+    text-decoration: none;
+  }
+  
+  
