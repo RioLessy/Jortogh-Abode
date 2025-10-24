@@ -1,5 +1,10 @@
+html {
+  overscroll-behavior: none;
+}
+
 body {
   color: rgb(255, 242, 175);
+  height: 300vh
 }
 
 .title {

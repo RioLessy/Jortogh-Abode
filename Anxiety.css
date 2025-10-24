@@ -1,0 +1,8 @@
+html {
+    overscroll-behavior: none;
+}   
+
+body {
+    background: linear-gradient( 180deg, #000000, #ffffff);
+    height: 600vh;
+}
