@@ -7,12 +7,29 @@ body {
   height: 600vh;
 }
 
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
 .title {
   color: rgb(245, 194, 231);
   text-align: center;
   font-family: 'DynaPuff Semicondensed';
   font-size: 90px;
+  margin-top: 30px;
 
+}
+
+.border {
+  color: rgb(245, 194, 231);
+  text-align: center;
+  font-family: 'Irish Grover';
+  font-size: 90px;
+  margin-top: -50px;
 }
 
 /* Read Aloud button styles */
@@ -38,7 +55,7 @@ body {
 }
 
 .Read_button:active {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(24, 24, 37);
   border-color: rgb(243, 170, 224);
   color: rgb(243, 170, 224);
   border-width: 1px;
