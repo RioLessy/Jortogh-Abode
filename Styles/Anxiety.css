@@ -3,8 +3,8 @@ html {
 }   
 
 body {
-  background: linear-gradient( 180deg, rgb(17, 17, 27), rgb(203, 166, 247));
-  height: 600vh;
+  background: linear-gradient( to bottom, rgb(17, 17, 27), rgb(203, 166, 247));
+  height: 100%;
 }
 
 h1 {
