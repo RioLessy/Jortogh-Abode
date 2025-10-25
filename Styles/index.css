@@ -1,0 +1,87 @@
+html {
+  overscroll-behavior: none;
+}
+
+body {
+  color: rgb(255, 242, 175);
+  background-image: url('../Media/Images/Home_Background-Image.png');
+}
+
+.title {
+  text-align: center;
+  font-family: 'Leckerli One';
+  font-size: 120px;
+  position: relative;
+  bottom: 15px;
+}
+
+.title_description {
+  text-align: center;
+  font-family: 'Leckerli One';
+  font-size: 45px;
+  position: relative;
+  bottom: 85px;
+}
+
+p {
+  margin-left: 110px;
+  position: relative;
+  bottom: 140px;
+  font-size: 20px;
+  font-family: 'Lexend';
+  margin-right: 110px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.border {
+  text-align: center;
+  text-decoration: strong;
+  font-size: 75px;
+  position: relative;
+  bottom: 175px;
+}
+
+a {
+  color: rgb(255, 242, 175);
+  text-decoration: none;
+}
+
+img {
+  width: 50%;
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100px;
+}
+span {
+  font-size: 30px;
+  text-decoration: strong;
+}
+.button_home {
+  background-color: rgb(255, 243, 190);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+  color: #000000;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.button_about {
+  background-color: rgb(255, 243, 190);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 4px;
+  cursor: pointer;
+  color: #000000;
+  border-radius: 15px;
+}
