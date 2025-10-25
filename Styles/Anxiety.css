@@ -1,10 +1,10 @@
 html {
   overscroll-behavior: none;
+  height: 100%;
 }   
 
 body {
   background: linear-gradient( to bottom, rgb(17, 17, 27), rgb(203, 166, 247));
-  height: 100%;
 }
 
 h1 {
