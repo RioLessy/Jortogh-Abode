@@ -4,6 +4,7 @@ html {
 
 body {
   color: rgb(255, 242, 175);
+  background-image: url('Media/Images/Home_Background-image.png');
 }
 
 .title {
