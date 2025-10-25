@@ -69,7 +69,7 @@ span {
   cursor: pointer;
   color: #000000;
   margin-top: 10px;
-  border-radius: 15px
+  border-radius: 15px;
 }
 .button_about {
   background-color: rgb(255, 243, 190);
@@ -82,5 +82,5 @@ span {
   margin-left: 4px;
   cursor: pointer;
   color: #000000;
-  border-radius: 15px
+  border-radius: 15px;
 }
