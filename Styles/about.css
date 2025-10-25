@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  color: rgb(255, 242, 175);
-  background-image: url('../Media/Images/Home_Background-Image.png');
+  background-image: url('../Media/Images/clouds-5.jpg');
 }
+
 
 .title {
   text-align: center;
@@ -25,6 +25,7 @@ body {
 
 p {
   margin-left: 110px;
+  color: rgb(205, 214, 244);
   position: relative;
   bottom: 140px;
   font-size: 20px;
@@ -32,6 +33,14 @@ p {
   margin-right: 110px;
   text-align: justify;
   line-height: 1.5;
+}
+
+h1 {
+  color: rgb(205, 214, 244);
+}
+
+h2 {
+  color: rgb(205, 214, 244);
 }
 
 .border {
@@ -54,34 +63,78 @@ img {
   transform: translateX(-50%);
   bottom: 100px;
 }
+
 span {
   font-size: 30px;
   text-decoration: strong;
 }
+
+/* Navigation Buttons */
 .button_home {
-  background-color: rgb(255, 243, 190);
-  border: none;
-  padding: 15px 32px;
+  background-color: rgb(180, 190, 254);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(180, 190, 254);
+  padding: 14px 31px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
   margin-left: 8px;
   cursor: pointer;
-  color: #000000;
-  margin-top: 10px;
+  color: rgb(17, 17, 27);
+  margin-top: 4px;
   border-radius: 15px;
+  transition: background-color 0.2s, box-shadow 0.15s, color 0.2s, border-color 0.2s;
 }
+
 .button_about {
-  background-color: rgb(255, 243, 190);
-  border: none;
-  padding: 15px 32px;
+  background-color: rgb(180, 190, 254);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(180, 190, 254);
+  padding: 14px 31px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
   margin-left: 4px;
   cursor: pointer;
-  color: #000000;
+  color: rgb(17, 17, 27);
   border-radius: 15px;
+  transition: background-color 0.2s, box-shadow 0.15s, color 0.2s, border-color 0.2s;
+}
+
+.button_about:hover {
+  background-color: rgb(149, 163, 250);
+  box-shadow: -5px 5px 10px rgba(149, 163, 250, 0.4);
+  border-color: rgb(149, 163, 250);
+}
+
+.button_home:hover {
+  background-color: rgb(149, 163, 250);
+  box-shadow: -5px 5px 8px rgba(149, 163, 250, 0.4);
+  border-color: rgb(149, 163, 250);
+}
+
+.button_about:active {
+  background-color: rgb(17, 17, 27);
+  box-shadow: -5px 5px 8px rgba(149, 163, 250, 0.4);
+  color: rgb(149, 163, 250);
+  border-color: rgb(149, 163, 250);
+}
+
+.button_home:active {
+  background-color: rgb(17, 17, 27);
+  box-shadow: -5px 5px 8px rgba(149, 163, 250, 0.4);
+  color: rgb(149, 163, 250);
+  border-color: rgb(149, 163, 250);
+}
+
+button {
+  margin: 0px;
+  color: rgba(0, 0, 0, 0);
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
 }
