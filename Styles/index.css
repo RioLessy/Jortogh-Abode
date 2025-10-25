@@ -1,5 +1,7 @@
 html {
   overscroll-behavior: none;
+  height: 100%;
+  width: 100%;
 }
 
 body {
