@@ -4,7 +4,7 @@ html {
 
 body {
 	background: linear-gradient( to bottom, rgb(17, 17, 27), rgb(203, 166, 247));
-	height: 130vh;
+	height: fit-content;
 }
 
 h1 {
@@ -32,40 +32,8 @@ h2 {
 	margin-top: -55px;
 }
 
-/* Read Aloud button styles */
-.Read_button {
-	background-color: rgb(245, 194, 231);
-	border-color: rgb(245, 194, 231);
-	border-style: solid;
-	padding: 7px;
-	font-size: 22px;
-	border-width: 1px;
-	border-radius: 10px;
-	cursor: pointer;
-	font-weight: bold;
-	transition: background-color 0.2s, color 0.2s, box-shadow 0.15s;
-	position: fixed;
-	top: 15px;
-	left: 20px;
-	z-index: 100;
-}
-
-.Read_button:hover {
-	background-color: rgb(243, 170, 224);
-	border-color: rgb(243, 170, 224);
-	box-shadow: -6px 6px 10px rgba(239, 132, 211, 0.35);
-}
-
-.Read_button:active {
-	background-color: rgb(24, 24, 37);
-	border-color: rgb(243, 170, 224);
-	color: rgb(243, 170, 224);
-	border-width: 1px;
-	border-style: solid;
-}
-
 p {
-	padding: 20px 100px;
+	padding: 15px 100px;
 	font-size: 20px;
 	text-align: center;
 }
@@ -79,25 +47,31 @@ p {
 }
 
 .headspace {
-	background-color: rgb(235, 160, 172);
+	background-color: #ADB3FA;
 }
 
 .beyond-blue {
-	background-color: rgb(148, 226, 213);
+	background-color: #BCADF9;
 }
 
 .reachout {
-	background-color: rgb(235, 160, 172);
-}
-
-.comic {
-	width: 550px;
-	margin-left: 300px;
+	background-color: #ADB3FA;
 }
 
 .website-container {
 	display: flex;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
+	position: relative;
+	bottom: 0;
+	margin-top: 70px;
+}
+
+.novel {
+	color: #cdd6f4;
+	bottom: 100px;
+	width: 75%;
+	margin: auto;
+	font-size: 25px;
+	text-align: justify;
+	line-height: 40px;
 }
