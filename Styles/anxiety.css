@@ -43,7 +43,7 @@ p {
 }
 
 .website {
-	width: 33%;
+	width: 33.3333333333333333333333333334%;
 }
 
 .headspace {
@@ -62,14 +62,14 @@ p {
 	display: flex;
 	width: 100%;
 	position: relative;
-	bottom: 0;
+	bottom: 0px;
 	margin-top: 70px;
 }
 
 .novel {
 	color: #cdd6f4;
 	bottom: 100px;
-	width: 75%;
+	width: 70%;
 	margin: auto;
 	font-size: 25px;
 	text-align: justify;
