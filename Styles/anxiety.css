@@ -3,7 +3,7 @@ html {
 }   
 
 body {
-	background: linear-gradient( to bottom, rgb(17, 17, 27), rgb(203, 166, 247));
+	background: linear-gradient( to bottom, rgb(17, 17, 27), rgb(177, 142, 219));
 	height: fit-content;
 }
 
@@ -32,10 +32,15 @@ h2 {
 	margin-top: -55px;
 }
 
-p {
+.writing {
 	padding: 15px 100px;
 	font-size: 20px;
 	text-align: center;
+	color: #cdd6f4;
+	bottom: 100px;
+	width: 71%;
+	margin: auto;
+	font-size: 25px;
 }
 
 .link-line {
@@ -66,12 +71,23 @@ p {
 	margin-top: 70px;
 }
 
+.warning_header {
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+}
+
 .novel {
-	color: #cdd6f4;
-	bottom: 100px;
-	width: 70%;
-	margin: auto;
 	font-size: 25px;
 	text-align: justify;
 	line-height: 40px;
+	text-shadow: -2px 2px 5px rgba(17, 17, 27, 0.5);
+}
+
+.warning {
+	line-height: 35px;
+}
+
+span {
+	font-size: 17px;
 }
